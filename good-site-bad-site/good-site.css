@@ -1,3 +1,21 @@
 header, footer { background-color: #ffd6b8; }
 .bp186 { text-align: left; }
 .bp002 p { font-size: 140%; }
+.bp005 abbr {
+    display: inline-block;
+    position: relative;
+}
+.bp005 abbr::after {
+    position: absolute;
+    display: flex;
+    left: 102%;
+    top: 40%;
+    font-size: 80%;
+    padding: 0.25em 0.5em;
+    content: attr(title);
+    border: 1pt solid black;
+    border-radius: 4pt;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    min-width: 13em;
+}
