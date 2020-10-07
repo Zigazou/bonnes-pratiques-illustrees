@@ -3,9 +3,22 @@
     font-family: "IBM Plex Sans", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+body { background-color: #feffff; }
+
+h1, h2, h3, h4, h5, h6, strong {
     font-family: "IBM Plex Sans Semibold", sans-serif;
     font-weight: normal;
+}
+
+h1 { font-size: 28pt; }
+h2 { font-size: 24pt; }
+h3 { font-size: 22pt; }
+h4 { font-size: 20pt; }
+h5 { font-size: 19pt; }
+h6 { font-size: 18pt; }
+
+h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
+    margin-top: 0;
 }
 
 body {
@@ -24,7 +37,7 @@ header>* { margin-right: 1em; }
 
 nav {
     padding: 6pt 24pt;
-    background-color: yellow;
+    background-color: #ffd6b8;
 }
 
 nav ul, nav li {
@@ -64,3 +77,32 @@ p:last-child { margin-bottom: 0; }
     color: black;
     background-color: lightgrey;
 }
+
+.window-urlbar {
+    display: flex;
+    padding: 4pt 8pt;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+.window-urlbar::before {
+    margin-right: 0.5em;
+    font-size: 125%;
+    content: "←  →  ⟳";
+}
+
+.window-urlbar::after {
+    font-size: 125%;
+    content: "☰";
+}
+
+.window-urlbar-url {
+    flex-grow: 2;
+    padding: 4pt 8pt;
+    margin: 2pt 0.5em 2pt 0;
+    border: 1pt solid grey;
+    border-radius: 4pt;
+    background-color: white;
+    font-size: 90%;
+}
+
