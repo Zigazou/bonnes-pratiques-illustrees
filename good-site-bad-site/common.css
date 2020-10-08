@@ -3,8 +3,6 @@
     font-family: "IBM Plex Sans", sans-serif;
 }
 
-body { background-color: #feffff; }
-
 h1, h2, h3, h4, h5, h6, strong, dt {
     font-family: "IBM Plex Sans Semibold", sans-serif;
     font-weight: normal;
@@ -24,6 +22,7 @@ h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, 
 body {
     margin: 0;
     padding: 0;
+    background-color: #feffff;
 }
 
 header, main, footer { padding: 24pt; }
@@ -53,7 +52,14 @@ p:first-child { margin-top: 0; }
 p:last-child { margin-bottom: 0; }
 
 .window-frame {
-    border: 4pt outset lightgrey;
+    border: 2.5pt outset;
+    padding: 3pt;
+    background-color: lightgrey;
+}
+
+.window-body {
+    border: 2.5pt inset;
+    background-color: white;
 }
 
 .window-titlebar {
