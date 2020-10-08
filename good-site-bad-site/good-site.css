@@ -19,3 +19,21 @@ header, footer { background-color: #ffd6b8; }
     color: white;
     min-width: 13em;
 }
+
+.bp008 .advert::before {
+    position: absolute;
+    display: inline-block;
+    top: -32pt;
+    left: -2pt;
+    padding: 4pt 8pt;
+    content: "Publicité";
+    background-color: black;
+    color: white;
+}
+
+.bp008 .advert {
+    position: relative;
+    margin-top: 48pt;
+    border: 2pt solid black;
+    padding: 4pt 8pt;
+}
