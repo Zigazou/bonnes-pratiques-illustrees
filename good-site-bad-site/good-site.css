@@ -37,3 +37,13 @@ header, footer { background-color: #ffd6b8; }
     border: 2pt solid black;
     padding: 4pt 8pt;
 }
+
+.bp011 .abuse {
+    display: block;
+    text-align: right;
+}
+
+.bp012 td {
+    width: 3em;
+    text-align: right;
+}

@@ -3,7 +3,7 @@
     font-family: "IBM Plex Sans", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, strong, dt {
+h1, h2, h3, h4, h5, h6, strong, dt, th {
     font-family: "IBM Plex Sans Semibold", sans-serif;
     font-weight: normal;
 }
@@ -14,6 +14,14 @@ h3 { font-size: 22pt; }
 h4 { font-size: 20pt; }
 h5 { font-size: 19pt; }
 h6 { font-size: 18pt; }
+
+table { border-collapse: collapse; }
+table, td, th { border: 1pt solid black; }
+td, th { padding: 2pt 4pt; }
+th {
+    background-color: black;
+    color: white;
+}
 
 h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
     margin-top: 0;
