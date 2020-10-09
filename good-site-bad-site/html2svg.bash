@@ -273,8 +273,7 @@ SVGTMP="$1.svg.tmp"
 
 # Convert HTML to PDF
 printf "  - [CHROMIUM] Converting HTML to PDF\n"
-#google-chrome \
-chromium-browser \
+google-chrome \
     --headless \
     --disable-gpu \
     --print-to-pdf-no-header \
