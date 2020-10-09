@@ -1,0 +1,990 @@
+E-Commerce ---------------------------------------------------------------------
+
+BP 063 : Les mentions d'appartenance à un ordre ou groupe professionnel, d'un label ou d'une récompense sont accompagnées d'un lien vers la source
+Les mentions d'appartenance à un ordre ou groupe professionnel, d'un label ou d'une récompense sont accompagnées d'un lien vers la source
+Donner un accès immédiat à l'utilisateur pour lui permettre de comprendre de quoi il s'agit
+Permettre à l'utilisateur de vérifier par lui-même l'information
+Accroître le degré de confiance ou de crédibilité
+
+BP 064 : Les produits indisponibles font l'objet d'une différenciation visuelle et textuelle
+Les produits indisponibles font l'objet d'une différenciation visuelle et textuelle
+Permettre à l'utilisateur d'identifier immédiatement et sans confusion possible les produits indisponibles
+Éviter l'effet de déception si un utilisateur débute une procédure de commande et s'aperçoit tardivement de l'indisponibilité du produit désiré
+
+BP 065 : Un mail indiquant la référence de la transaction et les données de la commande est envoyé suite à la validation
+Un mail indiquant la référence de la transaction et les données de la commande est envoyé suite à la validation
+Donner à l'utilisateur une confirmation des informations relatives à la commande
+Permettre à l'utilisateur de conserver un historique de la transaction ailleurs que dans le site
+
+BP 066 : Chaque réclamation fait l'objet d'un accusé de réception
+Chaque réclamation fait l'objet d'un accusé de réception
+Permettre à l'utilisateur d'obtenir une confirmation de sa demande en-dehors du contexte de la navigation sur le site
+Éviter au service client de recevoir plusieurs demandes concernant une même réclamation
+
+Formulaires --------------------------------------------------------------------
+
+BP 067 : Chaque champ de formulaire est associé dans le code source à une étiquette qui lui est propre
+Chaque champ de formulaire est associé dans le code source à une étiquette qui lui est propre
+Faciliter la compréhension des données attendues dans les formulaires
+Permettre aux aides techniques d'accessibilité de restituer les champs de formulaires en les associant systématiquement à une étiquette indiquant leur rôle et la nature de la saisie attendue
+Faciliter la saisie en permettant de sélectionner le champ via un clic sur son étiquette aussi bien que sur le champ lui-même (particulièrement en cas de case à cocher ou de case radio)
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 068 : Les informations complétant l'étiquette d'un champ sont associées à celui-ci dans le code-source
+Les informations complétant l'étiquette d'un champ sont associées à celui-ci dans le code-source
+Optimiser le rendu dans les lecteurs d’écran en permettant d’expliciter les étiquettes des champs de formulaire
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 069 : L'étiquette de chaque champ de formulaire indique si la saisie est obligatoire
+L'étiquette de chaque champ de formulaire indique si la saisie est obligatoire
+Permettre aux utilisateurs de savoir à l'avance si un champ est obligatoire
+Prévenir les erreurs avant qu'elles ne surviennent
+Renforcer la confiance des utilisateurs sur l’utilisation de leurs données
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 070 : Le format de saisie des champs de formulaire qui le nécessitent est indiqué
+Le format de saisie des champs de formulaire qui le nécessitent est indiqué
+Limiter le risque d'erreurs de saisie
+Limiter les risques associés à l'envoi de données erronées ou impossibles à exploiter
+Éviter que l'utilisateur ne renonce à poursuivre faute d'information sur la saisie attendue
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 071 : L'utilisateur est averti lorsqu'une saisie est sensible à la casse
+L'utilisateur est averti lorsqu'une saisie est sensible à la casse
+Éviter le risque d'erreur et donc éviter à l'utilisateur de devoir remplir plusieurs fois un même champ
+Éviter l'incompréhension de l'utilisateur qui pense avoir rempli correctement le champ et qui le voit signalé en erreur
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 072 : L'étiquette de chaque champ de formulaire qui le nécessite indique les limites de nombre de caractères
+L'étiquette de chaque champ de formulaire qui le nécessite indique les limites de nombre de caractères
+Prévenir les erreurs d’envoi de formulaires
+Prévenir les pertes de données
+Éviter l'agacement et l'incompréhension de l'utilisateur
+
+BP 073 : La création d'un mot de passe par l'utilisateur fait l'objet d'un mécanisme de prévention des erreurs de saisie
+La création d'un mot de passe par l'utilisateur fait l'objet d'un mécanisme de prévention des erreurs de saisie
+Éviter à l'utilisateur de saisir un mot de passe qui ne correspond finalement pas à celui qu'il a souhaité ou mémorisé
+
+BP 074 : Les caractères saisis dans un champ de mot de passe peuvent être affichés en clair
+Les caractères saisis dans un champ de mot de passe peuvent être affichés en clair
+Faciliter la saisie des mots de passe, notamment sur les claviers virtuels des terminaux mobiles
+Prévenir les erreurs
+
+BP 075 : Chaque étiquette de formulaire est visuellement rattachée au champ qu'elle décrit
+Chaque étiquette de formulaire est visuellement rattachée au champ qu'elle décrit
+Permettre aux utilisateurs d'identifier sans ambiguïté les champs de formulaire et la nature des informations à saisir
+Prévenir les erreurs de saisie
+Faciliter et accélérer l'usage du formulaire
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 076 : Les informations contextuelles se rapportant à un champ de formulaire lui sont visuellement rattachées
+Les informations contextuelles se rapportant à un champ de formulaire lui sont visuellement rattachées
+Faciliter l'utilisation des formulaires dans tous les contextes utilisateurs, notamment les utilisateurs de loupe d'écran ou ceux qui doivent grossir le texte de façon importante
+Prévenir les erreurs de saisie
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 077 : En cas de rejet des données saisies dans un formulaire, les champs contenant les données rejetées sont indiqués à l'utilisateur
+En cas de rejet des données saisies dans un formulaire, les champs contenant les données rejetées sont indiqués à l'utilisateur
+Donner un retour à l'utilisateur sur l'action qu'il vient d'effectuer
+Guider l'utilisateur directement vers les éléments sur lesquels il doit agir
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 078 : En cas de rejet des données saisies dans un formulaire, les raisons du rejet sont indiquées à l'utilisateur
+En cas de rejet des données saisies dans un formulaire, les raisons du rejet sont indiquées à l'utilisateur
+Aider l'internaute à comprendre ce qu'on attend et, ainsi, faciliter le passage à l'étape suivante
+Éviter la frustration de l'utilisateur face à une erreur dont il n'aurait pas la solution immédiate
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 079 : En cas de rejet des données saisies dans un formulaire, toutes les données saisies peuvent être modifiées par l'utilisateur
+En cas de rejet des données saisies dans un formulaire, toutes les données saisies peuvent être modifiées par l'utilisateur
+Laisser la main à l'utilisateur sur la totalité des informations qu'il donne
+Faciliter la correction des erreurs commises par l'utilisateur
+Permettre à l'utilisateur de modifier des informations sur lesquelles il voudrait revenir
+Éviter que l'utilisateur ne quitte le formulaire avant validation définitive
+
+BP 080 : Les messages d'erreur personnalisés sont exprimés dans la langue du formulaire
+Les messages d'erreur personnalisés sont exprimés dans la langue du formulaire
+Prévenir les difficultés de saisie et améliorer la compréhension des messages d’erreur
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 081 : Lors de la saisie d'un formulaire réparti sur plusieurs pages, un récapitulatif global est affiché avant l'envoi définitif
+Lors de la saisie d'un formulaire réparti sur plusieurs pages, un récapitulatif global est affiché avant l'envoi définitif
+Donner à l'utilisateur une vue globale de ce qu'il a saisi dans les pages précédentes
+Permettre à l'utilisateur de vérifier l'ensemble des informations d'une procédure complexe avant la soumission définitive
+
+BP 082 : La page affichée après l'envoi d'un formulaire permet de reprendre directement la navigation
+La page affichée après l'envoi d'un formulaire permet de reprendre directement la navigation
+Éviter de dérouter l’utilisateur en le menant à une page en impasse, y compris par l’utilisation de la fonction « page précédente » du navigateur
+Limiter le risque de double envoi de formulaire
+
+BP 083 : La soumission d'un formulaire est suivie d'un message indiquant la réussite ou non de l'action souhaitée
+La soumission d'un formulaire est suivie d'un message indiquant la réussite ou non de l'action souhaitée
+Fournir à l'utilisateur un retour immédiat et explicite sur l'action qu'il vient d'effectuer
+Éviter la frustration d'un utilisateur qui pense que le processus s'est déroulé avec succès alors qu'il y a eu un problème
+
+BP 084 : L'utilisateur est averti au début d'un processus complexe de la nature des données et documents exigés
+L'utilisateur est averti au début d'un processus complexe de la nature des données et documents exigés
+Augmenter le taux de réussite du processus complexe
+Maintenir et améliorer l’image de marque
+Permettre à l'utilisateur de préparer les éventuels documents nécéssaires
+
+BP 085 : Les processus complexes sont accompagnés de la liste de leurs étapes
+Les processus complexes sont accompagnés de la liste de leurs étapes
+Donner de la visibilité à l'utilisateur sur les actions qu'il va réaliser (temps, ordre des étapes, informations nécessaires pour les accomplir, etc.)
+Éviter que l'utilisateur ne se sente piégé dans un processus dont il n'avait pas prévu la durée
+
+BP 086 : L'étape en cours d'un processus complexe est indiquée
+L'étape en cours d'un processus complexe est indiquée
+Permettre à l'utilisateur d'identifier le degré d'avancement dans un processus
+Rassurer l'utilisateur lors de la réalisation d'un processus complexe
+
+BP 087 : Chaque étape d'un processus complexe permet de revenir à l'étape précédente
+Chaque étape d'un processus complexe permet de revenir à l'étape précédente
+Faciliter l’utilisation des formulaires répartis sur plusieurs pages successives
+Réduire les risques d’erreurs de saisie. Limiter les risques d’abandon en cours de processus
+
+BP 088 : L'utilisateur est averti de la perte d'information en cas d'utilisation de l'historique de son navigateur dans un processus complexe
+L'utilisateur est averti de la perte d'information en cas d'utilisation de l'historique de son navigateur dans un processus complexe
+Faciliter l’utilisation des formulaires répartis sur plusieurs pages successives
+Limiter les risques d’abandon en cours de processus
+
+BP 089 : La navigation dans un processus complexe ne provoque pas la perte des données précédemment soumises
+La navigation dans un processus complexe ne provoque pas la perte des données précédemment soumises
+Faciliter la saisie et sa correction dans les formulaires répartis par étapes
+Limiter les risques d’abandon en cours de procédure
+
+BP 090 : Le copier coller est possible dans les champs de formulaire
+Le copier coller est possible dans les champs de formulaire
+Faciliter la saisie dans les formulaires
+
+BP 091 : Les éléments d'une liste déroulante qui peuvent être regroupés le sont de manière appropriée
+Les éléments d'une liste déroulante qui peuvent être regroupés le sont de manière appropriée
+Permettre aux aides techniques de restituer à l’utilisateur une liste dont l’organisation est clairement perceptible et qui facilite le passage d’un élément de la liste à un autre
+Favoriser un rendu approprié des listes déroulantes complexes dans tous les navigateurs
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 092 : Les listes d'options de formulaires sont présentées dans un ordre identifiable
+Les listes d'options de formulaires sont présentées dans un ordre identifiable
+Permettre aux utilisateurs d'accéder rapidement à l'item de liste recherché
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 093 : Les champs de saisie de type mail, URL, téléphone, nombre, recherche, mots de passe, heure et date sont dotés du type approprié
+Les champs de saisie de type mail, URL, téléphone, nombre, recherche, mots de passe, heure et date sont dotés du type approprié
+Permettre l’utilisation des claviers virtuels adaptés aux différents types de saisie sur les terminaux mobiles
+Faciliter la validation de la saisie
+Améliorer la compatibilité avec les terminaux mobiles
+
+Identification et contact ------------------------------------------------------
+
+BP 094 : La page d'accueil expose la nature des contenus et services proposés
+La page d'accueil expose la nature des contenus et services proposés
+Donner aux utilisateurs une vision immédiate de la nature du site et des contenus proposés
+Éviter les recherches inutiles
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 095 : Si le site est réservé ou destiné à un public spécifique, ce public est mentionné au moins sur la page d'accueil
+Si le site est réservé ou destiné à un public spécifique, ce public est mentionné au moins sur la page d'accueil
+Éviter des consultations inutiles
+Délivrer un avertissement aux utilisateurs
+
+BP 096 : L'identité de l'auteur, de la société ou de l'organisation est indiquée
+L'identité de l'auteur, de la société ou de l'organisation est indiquée
+Permettre aux utilisateurs d’identifier sans ambiguïté un interlocuteur physique capable de répondre aux questions éventuelles sur les contenus proposés, ou d’assumer les responsabilités liées à ces contenus
+Rassurer l'utilisateur en lui permettant d'identifier directement l'auteur (au sens large)
+Limiter les risques de défiance
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 097 : Le titre de chaque page permet d'identifier le site
+Le titre de chaque page permet d'identifier le site
+Permettre aux utilisateurs d'identifier immédiatement le site dans les onglets, les favoris, dans la fenêtre du navigateur ou encore dans les lecteurs d'écran
+Améliorer le référencement du site et sa présentation dans les moteurs de recherche
+Améliorer l’accessibilité des contenus aux personnes handicapées
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 098 : Le titre de chaque page permet d'identifier son contenu
+Le titre de chaque page permet d'identifier son contenu
+Permettre aux utilisateurs d'identifier immédiatement la nature des contenus de chaque page dans les onglets, les favoris, dans la fenêtre du navigateur ou encore dans les lecteurs d'écran
+Améliorer le référencement des pages et leur présentation dans les moteurs de recherche
+Améliorer l’accessibilité des contenus aux personnes handicapées
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 099 : Le code source des pages contient un appel valide à une icône de favori
+Le code source des pages contient un appel valide à une icône de favori
+Améliorer l'identification visuelle du site et de ses pages
+Faciliter l'identification dans le navigateur et dans les favoris ou signets
+Permettre l'affichage, l'appel, et la mémorisation éventuelle de l'icône de favori par tous les navigateurs
+
+BP 100 : L'adresse complète et le numéro de téléphone des sociétés et organisations sont disponibles depuis toutes les pages du site
+L'adresse complète et le numéro de téléphone des sociétés et organisations sont disponibles depuis toutes les pages du site
+Donner aux utilisateurs qui le souhaitent la possibilité d'accéder sans difficulté aux moyens de contact téléphoniques et postaux
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 101 : Le numéro d'immatriculation délivré aux sociétés ou organisations au terme des procédures légales d'enregistrement en vigueur dans leur pays est indiqué
+Le numéro d'immatriculation délivré aux sociétés ou organisations au terme des procédures légales d'enregistrement en vigueur dans leur pays est indiqué
+Fournir aux utilisateurs une indication vérifiable de l'existence officielle de la structure qui propose les contenus ou le service
+
+BP 102 : Le site propose au moins deux moyens de contact
+Le site propose au moins deux moyens de contact
+Optimiser les possibilités de retour d’information de la part des utilisateurs
+Éviter de mettre l’utilisateur en difficulté en cas d’indisponibilité ou de problèmes d’utilisation de l’un des moyens de contact
+
+BP 103 : Les délais de réponse aux demandes d'information sont indiqués
+Les délais de réponse aux demandes d'information sont indiqués
+Informer les utilisateurs sur les délais chiffrés de réponse
+Limiter les risques de relance de la part des utilisateurs
+Rassurer sur la capacité à prendre en compte les demandes
+
+BP 104 : Les horaires et tarifs de fonctionnement des services mis à la disposition des utilisateurs sont indiqués
+Les horaires et tarifs de fonctionnement des services mis à la disposition des utilisateurs sont indiqués
+Permettre aux utilisateurs de connaître les services mis à leur disposition et leur fonctionnement
+
+BP 105 : Chaque demande d'information fait l'objet d'un accusé de réception
+Chaque demande d'information fait l'objet d'un accusé de réception
+Informer les utilisateurs de la prise en compte de leur demande
+Permettre aux utilisateurs d’obtenir une confirmation archivable de la bonne réception de leur demande d’information
+
+BP 106 : Tous les mails fournissent au moins un moyen de contact
+Tous les mails fournissent au moins un moyen de contact
+Permettre à l’utilisateur de répondre aux mails ou de prendre contact
+Maintenir ou améliorer l’image de marque du service
+
+BP 107 : Le site propose au moins un moyen de contacter le responsable des réclamations
+Le site propose au moins un moyen de contacter le responsable des réclamations
+Permettre aux utilisateurs de s'adresser ou d'adresser directement leurs réclamations au bon interlocuteur
+Rassurer les internautes sur le fait qu'ils pourront facilement interagir avec le service des réclamations en cas de problème
+
+BP 108 : Le site propose au moins un moyen de contacter le modérateur des espaces publics
+Le site propose au moins un moyen de contacter le modérateur des espaces publics
+Permettre aux utilisateurs de contacter le modérateur pour demander une correction, poser une question ou signaler des abus
+Renforcer la confiance des utilisateurs sur l’utilisation de leurs données
+
+BP 109 : L'identité de la personne ou du service responsable des contenus est indiquée
+L'identité de la personne ou du service responsable des contenus est indiquée
+Permettre aux utilisateurs d'identifier sans ambiguïté un interlocuteur physique capable de répondre aux questions éventuelles sur les contenus proposés, ou d'assumer les responsabilités liées à ces contenus
+
+BP 110 : Si le site déclare respecter un ou plusieurs standards ou référentiels, un lien est proposé vers chacun d'entre eux
+Si le site déclare respecter un ou plusieurs standards ou référentiels, un lien est proposé vers chacun d'entre eux
+Faciliter la compréhension par l'utilisateur des règles de qualité, d'accessibilité ou autres appliquées sur le site
+Accroître la confiance dans les informations délivrées sur le site
+
+Images et médias ---------------------------------------------------------------
+
+BP 111 : Chaque image décorative est dotée d'une alternative textuelle appropriée
+Chaque image décorative est dotée d'une alternative textuelle appropriée
+Éviter aux utilisateurs placés dans des contextes où les images ne sont pas perceptibles (navigateur texte, lecteur d’écran, navigateur avec images désactivées) d’être perturbés par des informations sur des images qui leur sont inutiles
+Fournir aux robots d’indexation uniquement des informations pertinentes
+Améliorer l’accessibilité des contenus aux personnes handicapées
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 112 : Chaque image-lien est dotée d'une alternative textuelle appropriée
+Chaque image-lien est dotée d'une alternative textuelle appropriée
+Permettre aux utilisateurs placés dans des contextes où les images ne sont pas perceptibles (navigateur texte, lecteur d’écran, navigateur avec images désactivées) de comprendre le sens des liens présents sur des images qu’ils ne peuvent voir
+Permettre aux robots d’exploiter l’information véhiculée par les images-liens (pour le référencement, l’indexation, la traduction automatique des alternatives d’images-texte)
+Permettre l’affichage d’un texte pertinent pendant le chargement des images
+Améliorer l’accessibilité des contenus aux personnes handicapées
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 113 : Chaque image porteuse d'information est dotée d'une alternative textuelle appropriée
+Chaque image porteuse d'information est dotée d'une alternative textuelle appropriée
+Permettre aux utilisateurs placés dans des contextes où les images ne sont pas perceptibles (navigateur texte, lecteur d'écran, navigateur avec images désactivées) de comprendre le sens des images qu'ils ne peuvent voir
+Permettre aux robots d'exploiter l'information véhiculée par les images (référencement, indexation, traduction automatique des alternatives d’images-texte)
+Permettre l'affichage d'un texte pendant le chargement des images
+Améliorer l’accessibilité des contenus aux personnes handicapées
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 114 : Les vignettes et aperçus ne sont pas des images de taille supérieure redimensionnées côté client
+Les vignettes et aperçus ne sont pas des images de taille supérieure redimensionnées côté client
+Diminuer la quantité de données à télécharger
+Améliorer la vitesse d’affichage de la page
+Diminuer l'impact énergétique lié à la consultation du site
+
+BP 115 : Les objets inclus sont dotés d'une alternative textuelle appropriée
+Les objets inclus sont dotés d'une alternative textuelle appropriée
+Fournir un accès à l'information pour les utilisateurs dont le navigateur ou la plateforme ne supporte pas l'inclusion d'objets ou les technologies utilisées dans les objets inclus
+Faciliter l'exploitation de ces contenus par les robots (référencement en particulier)
+Améliorer l’accessibilité des contenus aux personnes handicapées
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 116 : Chaque contenu audio et vidéo est accompagné de sa transcription textuelle
+Chaque contenu audio et vidéo est accompagné de sa transcription textuelle
+Permettre aux utilisateurs qui ne peuvent accéder au son ou à l’image proposés de diposer d'une transcription textuelle servant d’alternative
+Permettre aux utilisateurs d’accéder à l’information contenue dans la vidéo
+Permettre l’exploitation de l’information par des robots pour améliorer son indexation et son référencement
+Permettre la traduction par des outils linguistiques en ligne
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 117 : Les vidéos comportent des sous-titres synchronisés
+Les vidéos comportent des sous-titres synchronisés
+Permettre aux utilisateurs qui ne peuvent accéder au son de disposer d'une alternative visuelle synchronisée avec l'image suivre confortablement le déroulement de la vidéo sans devoir utiliser un transcript externe
+Permettre aux utilisateurs sourds d’accéder aux contenus de la vidéo
+Permettre à tous les utilisateurs d’accéder aux contenus de la vidéo
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 118 : La durée des contenus vidéo ou audio est indiquée
+La durée des contenus vidéo ou audio est indiquée
+Informer l'utilisateur afin qu'il puisse décider en connaissance de cause de consulter ou de télécharger ou non le contenu concerné
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 119 : Les vidéos sont déclenchées par l'utilisateur
+Les vidéos sont déclenchées par l'utilisateur
+Laisser à l’utilisateur le contrôle de l’interface visuelle lors de la consultation du site
+Ne pas imposer à l’utilisateur le déclenchement d’un contenu animé
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 120 : Les sons sont déclenchés par l'utilisateur
+Les sons sont déclenchés par l'utilisateur
+Laisser à l'utilisateur le contrôle du son lors de la consultation du site
+Ne pas surprendre l'utilisateur par la diffusion inattendue d'un contenu audio
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 121 : Les animations, sons et clignotements peuvent être mis en pause
+Les animations, sons et clignotements peuvent être mis en pause
+Laisser à l'utilisateur le contrôle des animations lors de la consultation du contenu
+Ne pas perturber l'attention en imposant des éléments pouvant gêner celle-ci
+Permettre la consultation pas à pas d'animations séquentielles ou de contenus sonores
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 122 : Le déroulement des animations ne bloque pas la navigation ou l'accès aux contenus
+Le déroulement des animations ne bloque pas la navigation ou l'accès aux contenus
+Fournir aux utilisateurs un accès direct et immédiat aux contenus, même lorsque l'administrateur du site décide de proposer une animation ou une publicité préalable
+
+BP 123 : L'indicatif international est disponible pour tous les numéros de téléphone
+L'indicatif international est disponible pour tous les numéros de téléphone
+Permettre l'utilisation immédiate du contact téléphonique quel que soit le contexte utilisateur
+
+BP 124 : Le pays est précisé pour toutes les adresses postales
+Le pays est précisé pour toutes les adresses postales
+Permettre aux utilisateurs d'identifier immédiatement le pays associé à l'adresse postale, sans ambiguïté et sans avoir recours à d'autres éléments (ville, région, code postal, numéro de téléphone)
+
+BP 125 : Le code source de chaque page indique la langue principale du contenu
+Le code source de chaque page indique la langue principale du contenu
+Favoriser l’indexation des contenus selon leur langue
+Faciliter la traduction automatique
+Permettre une lecture correcte du contenu par un outil de synthèse vocale
+Améliorer l’accessibilité des contenus aux personnes handicapées
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 126 : La langue principale de la page cible d'un lien est identifiable lorsqu'elle diffère de celle de la page d'origine
+La langue principale de la page cible d'un lien est identifiable lorsqu'elle diffère de celle de la page d'origine
+Permettre aux utilisateurs et outils de navigation d'anticiper le changement de langue en cours de navigation
+Éviter aux utilisateurs de se rendre sur une page dont ils ne comprennent pas la langue
+
+BP 127 : Chaque changement de langue est signalé
+Chaque changement de langue est signalé
+Permettre aux aides techniques d’interpréter correctement les contenus exprimés dans une autre langue
+Faciliter le travail des outils de traduction automatique
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 128 : Les liens d'accès aux versions traduites pointent directement vers la traduction de la page courante
+Les liens d'accès aux versions traduites pointent directement vers la traduction de la page courante
+Donner un accès direct et immédiat aux traductions de la page courante
+
+BP 129 : Les liens vers les versions équivalentes de la page ou du site sont rédigés dans leur langue cible
+Les liens vers les versions équivalentes de la page ou du site sont rédigés dans leur langue cible
+Permettre l’identification immédiate du lien pertinent par l’utilisateur
+Rendre compréhensible des liens spécialement créés pour un public spécifique
+
+BP 130 : Le serveur respecte l'ordre préférentiel de langues des outils de consultation
+Le serveur respecte l'ordre préférentiel de langues des outils de consultation
+Envoyer prioritairement à l’utilisateur la version de la page correspondant à la langue qu’il a indiqué dans les préférences de son outil de consultation
+
+BP 131 : Chaque lien est doté d'un intitulé dans le code source
+Chaque lien est doté d'un intitulé dans le code source
+Éviter aux utilisateurs d'avoir uniquement une URL peu compréhensible en guise de libellé
+Éviter les liens qui deviennent invisibles lorsque les styles CSS ou les images d'arrière-plan ne sont pas pris en compte
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 132 : Le libellé de chaque lien décrit sa fonction ou la nature du contenu vers lequel il pointe
+Le libellé de chaque lien décrit sa fonction ou la nature du contenu vers lequel il pointe
+Permettre aux utilisateurs d'identifier précisément la nature du lien et d'éviter des actions erronées
+Permettre aux outils d'indexation d'associer un libellé à une ressource
+Permettre aux lecteurs d'écran d'en indiquer la cible de façon explicite et d'éviter de désorienter les utilisateurs
+Améliorer l’accessibilité des contenus aux personnes handicapées
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 133 : Les liens de même nature ont des couleurs, des formes et des comportements identiques sur toutes les pages
+Les liens de même nature ont des couleurs, des formes et des comportements identiques sur toutes les pages
+Accélérer l'apprentissage du fonctionnement de l'interface
+Améliorer l'identification des liens et de leurs fonctions respectives
+
+BP 134 : Le soulignement est réservé aux liens
+Le soulignement est réservé aux liens
+Éviter les clics inutiles sur des contenus soulignés perçus comme des hyperliens
+Faciliter l’identification des liens
+
+BP 135 : Les liens sont visuellement différenciés du reste du contenu
+Les liens sont visuellement différenciés du reste du contenu
+Permettre aux utilisateurs d’identifier facilement les liens au fil du texte ainsi que les blocs de navigation
+Améliorer la visibilité et l’affordance des liens
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 136 : Le site n'applique pas le même style aux liens visités et non visités
+Le site n'applique pas le même style aux liens visités et non visités
+Faciliter l'identification des contenus déjà visités
+Faciliter l'identification des contenus restant à découvrir
+Inciter à la découverte de nouveaux contenus
+
+BP 137 : Les liens internes et externes sont différenciés
+Les liens internes et externes sont différenciés
+Avertir clairement l’internaute du fait qu’il va quitter le service en ligne qu’il est en train de visiter
+Faciliter le repérage des liens externes
+
+BP 138 : Les liens internes vers les contenus à accès limité sont différenciés
+Les liens internes vers les contenus à accès limité sont différenciés
+Éviter aux utilisateurs des clics inutiles et une perte de temps
+Prévenir la déception des utilisateurs
+
+BP 139 : Les liens provoquant l'ouverture d'un logiciel externe ont un libellé explicite
+Les liens provoquant l'ouverture d'un logiciel externe ont un libellé explicite
+Éviter sur le poste client l'ouverture inopinée d'un autre logiciel que le navigateur Web
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 140 : Les numéros de téléphone sont activables via le protocole approprié
+Les numéros de téléphone sont activables via le protocole approprié
+Faciliter l’utilisation des numéros de téléphone, notamment sur les terminaux mobiles
+
+BP 141 : L'utilisateur est averti des ouvertures de nouvelles fenêtres
+L'utilisateur est averti des ouvertures de nouvelles fenêtres
+Permettre à l'utilisateur d'anticiper le résultat de l'activation d'un lien
+Éviter aux utilisateurs d'aides techniques d'être désorientés par l'ouverture d'une nouvelle fenêtre qui n'est pas toujours perceptible et perturbe notamment l'utilisation de l'historique de navigation
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 142 : Le format des fichiers proposés en téléchargement est indiqué
+Le format des fichiers proposés en téléchargement est indiqué
+Permettre aux utilisateurs de savoir en temps utile si leurs outils les autorisent à consulter les fichiers proposés en téléchargement
+Réduire la charge serveur en évitant les téléchargements inutiles
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 143 : La taille des fichiers internes proposés en téléchargement est indiquée
+La taille des fichiers internes proposés en téléchargement est indiquée
+Informer de façon préventive les utilisateurs sur la quantité de données à télécharger
+Permettre aux utilisateurs de différer le téléchargement en connexion bas débit ou mobile
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 144 : La langue des fichiers en téléchargement est précisée lorsqu'elle diffère de celle de la page d'origine
+La langue des fichiers en téléchargement est précisée lorsqu'elle diffère de celle de la page d'origine
+Éviter aux utilisateurs des téléchargements inutiles
+Informer les utilisateurs du contenu des fichiers en téléchargement
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 145 : Le nommage des fichiers internes proposés en téléchargement permet d'en identifier le contenu et la provenance
+Le nommage des fichiers internes proposés en téléchargement permet d'en identifier le contenu et la provenance
+Améliorer l’identification des fichiers internes
+Éviter les confusions pour l’utilisateur
+
+BP 146 : Le site n'impose pas d'interdiction ou de restriction à la mise en place des liens entrants
+Le site n'impose pas d'interdiction ou de restriction à la mise en place des liens entrants
+Faciliter le référencement à travers l'obtention de liens entrants
+Augmenter la visibilité du site pour les utilisateurs
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 147 : Tous les liens internes du site sont valides
+Tous les liens internes du site sont valides
+Éviter les erreurs 404 en cours de navigation
+Faciliter un accès rapide à tous les contenus
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 148 : Si le site n'est pas réservé à un public spécifique, l'accès aux contenus est immédiat
+Si le site n'est pas réservé à un public spécifique, l'accès aux contenus est immédiat
+Permettre aux utilisateurs de commencer immédiatement leur navigation sur la ressource qu'ils ont demandée
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 149 : La navigation sur le site ne provoque pas l'ouverture de popups
+La navigation sur le site ne provoque pas l'ouverture de popups
+Permettre à l'utilisateur de naviguer sur le site sans avoir d'opération spécifique à effectuer pendant la navigation
+Éviter à des utilisateurs d'aides techniques d'être désorientés par l'ouverture d'une nouvelle fenêtre qui ne sera pas toujours aisément perceptible et qui perturbe notamment l'utilisation de l'historique de navigation ou qui masquera dans un lecteur d'écran la fenêtre principale
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 150 : Il est possible de revenir à la page d'accueil depuis toutes les pages
+Il est possible de revenir à la page d'accueil depuis toutes les pages
+Permettre aux utilisateurs de revenir en page d'accueil en cas de désorientation
+Identifier le lien principal permettant d'accéder au site
+
+BP 151 : Chaque page affiche une information permettant de connaître son emplacement dans l'arborescence du site
+Chaque page affiche une information permettant de connaître son emplacement dans l'arborescence du site
+Permettre à l'utilisateur de déterminer son emplacement dans le site
+Simplifier le passage des moteurs de recherche
+Faciliter la navigation dans l'arborescence des contenus
+
+BP 152 : Les items actifs de menu sont signalés
+Les items actifs de menu sont signalés
+Donner aux utilisateurs un moyen supplémentaire de se repérer dans l'architecture du site
+
+BP 153 : Les blocs de navigation de même nature sont affichés aux mêmes emplacements sur toutes les pages
+Les blocs de navigation de même nature sont affichés aux mêmes emplacements sur toutes les pages
+Faciliter l'apprentissage de la navigation sur l'interface
+Faciliter le repérage de l'information
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 154 : Les icônes de navigation sont accompagnées d'une légende explicite
+Les icônes de navigation sont accompagnées d'une légende explicite
+Limiter le temps d'apprentissage de l'interface
+Faciliter la compréhension des icônes
+Limiter le risque d'erreurs
+
+BP 155 : Les mécanismes de fermeture de fenêtres sont visuellement rattachées à leur contenu
+Les mécanismes de fermeture de fenêtres sont visuellement rattachées à leur contenu
+Limiter le temps d’apprentissage de l’interface
+Accélérer l’accès aux contenus
+Faciliter la navigation
+
+BP 156 : Les mécanismes de fermetures de fenêtres sont immédiatement disponibles
+Les mécanismes de fermetures de fenêtres sont immédiatement disponibles
+Limiter le temps d’apprentissage de l’interface
+Accélérer l’accès aux contenus
+Réduire le taux de rebond
+
+BP 157 : Les nouvelles fenêtres dimensionnées et les fenêtres modales sont dotées d'un bouton de fermeture explicite
+Les nouvelles fenêtres dimensionnées et les fenêtres modales sont dotées d'un bouton de fermeture explicite
+Donner aux utilisateurs des indications explicites pour fermer une fenêtre ou une boîte modale
+Accélérer l’accès aux contenus
+
+BP 158 : Les mécanismes de fermetures de fenêtres sont affichés aux mêmes emplacements sur toutes les pages
+Les mécanismes de fermetures de fenêtres sont affichés aux mêmes emplacements sur toutes les pages
+Limiter le temps d’apprentissage de l’interface
+Accélérer l’accès aux contenus
+Faciliter la navigation
+
+BP 159 : Chaque page contient des liens d'accès rapide placés au début du code source
+Chaque page contient des liens d'accès rapide placés au début du code source
+Permettre aux utilisateurs qui consultent les pages de manière linéaire (mode vocal) ou semi-linéaire (écran de faible largeur) de ne pas avoir à défiler l'ensemble des éléments sur chaque page pour accéder aux contenus
+Fournir des raccourcis accélérant la navigation au clavier et évitant des actions au clavier répétées pour parcourir la page et atteindre la zone souhaitée
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 160 : Le focus clavier n'est ni supprimé ni masqué
+Le focus clavier n'est ni supprimé ni masqué
+Permettre la navigation au clavier ou via des périphériques d'entrées ou des dispositifs qui ne reposent pas sur la souris
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 161 : Le site est intégralement utilisable au clavier
+Le site est intégralement utilisable au clavier
+Permettre la navigation au clavier pour les utilisateurs ayant une préférence pour cette pratique
+Permettre la consultation des contenus et l'utilisation des services indépendamment du périphérique d'entrée
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 162 : La navigation au clavier s'effectue dans un ordre prévisible
+La navigation au clavier s'effectue dans un ordre prévisible
+Faciliter la navigation au clavier
+Permettre aux utilisateurs de clavier de se doter de repères de navigation
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 163 : Le site propose un moteur de recherche interne
+Le site propose un moteur de recherche interne
+Fournir aux utilisateurs une solution de navigation alternative et d'accès rapide aux contenus liés à des mots-clés retenus par ceux-ci
+Diminuer l'impact énergétique lié à la consultation du site
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 164 : Chaque page de résultats de recherche peut être atteint via une adresse Web
+Chaque page de résultats de recherche peut être atteint via une adresse Web
+Permettre à l’utilisateur de partager ou de conserver dans ses signets un résultat de recherche
+Diminuer l'impact énergétique lié à la consultation du site
+
+BP 165 : Il est possible de relancer une recherche depuis sa page de résultats
+Il est possible de relancer une recherche depuis sa page de résultats
+Améliorer et accélérer les opérations de recherche par les utilisateurs en évitant les retours à la page de recherche initiale
+
+BP 166 : Un plan du site est disponible depuis chaque page
+Un plan du site est disponible depuis chaque page
+Fournir aux utilisateurs une solution en cas de désorientation, pour naviguer et se repérer dans le site, pour visualiser l'ensemble des contenus et la taille du site
+Inciter les responsables du contenu à représenter graphiquement et à rationaliser leur contenu
+Améliorer l’accessibilité des contenus aux personnes handicapées
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 167 : Les limites de temps imposées à une action ou un accès sont indiquées
+Les limites de temps imposées à une action ou un accès sont indiquées
+Avertir des utilisateurs ayant des contraintes spécifiques de manipulation ou de temps
+Éviter les pertes de données et de temps pour l’utilisateur
+Prévenir les échecs de commande
+
+BP 168 : L'inscription aux newsletters est soumise à un processus de confirmation
+L'inscription aux newsletters est soumise à un processus de confirmation
+Éviter l'inscription à une newsletter par un tiers usurpant une identité
+Vérifier que l'adresse e-mail a été saisie sans erreur
+Renforcer la confiance des utilisateurs sur l’utilisation de leurs données
+
+BP 169 : Un lien de désinscription est présent dans chaque newsletter
+Un lien de désinscription est présent dans chaque newsletter
+Permettre aux abonnés de ne plus recevoir une newsletter
+Renforcer la confiance des utilisateurs sur l’utilisation de leurs données
+
+BP 170 : La désinscription depuis une newsletter ne demande pas de confirmation par courriel
+La désinscription depuis une newsletter ne demande pas de confirmation par courriel
+Ne pas imposer à l’utilisateur une étape qui n’est pas nécessaire dans ce contexte
+Diminuer l'impact énergétique lié à la consultation du site
+Renforcer la confiance des utilisateurs sur l’utilisation de leurs données
+
+BP 171 : La désinscription aux newsletters est possible depuis le site
+La désinscription aux newsletters est possible depuis le site
+Permettre à l'utilisateur de se désinscrire sans nécessairement passer par un mail
+Renforcer la confiance des utilisateurs sur l’utilisation de leurs données
+
+BP 172 : La dernière newsletter envoyée est disponible en ligne
+La dernière newsletter envoyée est disponible en ligne
+Permettre aux utilisateurs de se faire une idée de la newsletter envoyée aux abonnés
+Permettre aux utilisateurs de consulter la newsletter en dehors des contraintes de l'email
+Accroître le référencement de vos contenus
+
+BP 173 : Les archives de newsletters sont disponibles en ligne
+Les archives de newsletters sont disponibles en ligne
+Faciliter la consultation des archives des newsletters
+Permettre aux utilisateurs de se faire une idée de la newsletter envoyée aux abonnés
+Favoriser le référencement de vos contenus
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 174 : La fréquence d'envoi des newsletters est consultable avant l'abonnement
+La fréquence d'envoi des newsletters est consultable avant l'abonnement
+Permettre aux utilisateurs de connaître avant leur inscription la fréquence à laquelle ils recevront la newsletter
+
+BP 175 : La charte graphique est cohérente sur l'ensemble du site
+La charte graphique est cohérente sur l'ensemble du site
+Permettre une homogénéité et une continuité dans la visite et la navigation
+Permettre une identification permanente du service en ligne visité
+
+BP 176 : L'information n'est pas véhiculée uniquement par la couleur
+L'information n'est pas véhiculée uniquement par la couleur
+Permettre l’accès à l’information pour les utilisateurs dont le navigateur, la plate-forme, l’aide technique ou encore le handicap (comme le daltonisme) ne permettent pas de visualiser ou de différencier les couleurs
+Rendre l’information accessible aux robots d’indexation
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 177 : Les contenus sont présentés avec un contraste suffisant par rapport à leur arrière-plan
+Les contenus sont présentés avec un contraste suffisant par rapport à leur arrière-plan
+Permettre une bonne lisibilité des contenus
+Limiter la charge mentale lors de la consultation
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 178 : Le contenu et le sens de chaque page ne sont pas altérés lorsque les styles sont désactivés
+Le contenu et le sens de chaque page ne sont pas altérés lorsque les styles sont désactivés
+Permettre la compréhension des contenus par les utilisateurs dont le navigateur n'appliquera pas les feuilles de styles du site ou dont le mode d'accès n'est pas visuel
+Séparer rigoureusement les contenus de la présentation pour améliorer leur interopérabilité
+Favoriser le référencement du contenu
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 179 : Un contenu n'est pas désigné uniquement par sa forme ou par sa position à l'écran
+Un contenu n'est pas désigné uniquement par sa forme ou par sa position à l'écran
+Permettre la compréhension de l'information sans l'accès au support visuel ou lorsque le rendu de celui-ci est altéré
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 180 : Un contenu qui doit être restitué dans un lecteur d'écran ne lui est pas dissimulé
+Un contenu qui doit être restitué dans un lecteur d'écran ne lui est pas dissimulé
+Faciliter l’adaptation du rendu au media (mobile ou autre) ou aux besoins de l’utilisateur (agrandissement de la taille des caractères, modification des couleurs, de la police, de la graisse, de la justification, etc.)
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 181 : La taille des éléments cliquables est suffisante
+La taille des éléments cliquables est suffisante
+Permettre à l’utilisateur de cliquer sur les éléments interactifs
+Limiter les fausses manipulations et les manipulations inutiles
+Améliorer la compatibilité avec les terminaux mobiles
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 182 : Les textes pouvant être mis en forme via des styles ne sont pas remplacés par des images
+Les textes pouvant être mis en forme via des styles ne sont pas remplacés par des images
+Faciliter l’adaptation du rendu au media (mobile ou autre) ou aux besoins de l’utilisateur (agrandissement de la taille des caractères, modification des couleurs, de la police, de la graisse, de la justification, etc.)
+Améliorer l’accessibilité des contenus aux personnes handicapées
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 183 : Les contenus générés via les styles sont dotés d'une alternative appropriée
+Les contenus générés via les styles sont dotés d'une alternative appropriée
+Permettre aux utilisateurs placés dans des contextes où les styles ne sont pas restitués (navigateur texte, lecteur d'écran, navigateur avec styles désactivés) d’accéder à l’information présente sous forme de contenus générés en CSS (images d’arrière-plan notamment)
+Permettre aux robots d'exploiter l'information véhiculée par les styles CSS (référencement, indexation, traduction automatique des alternatives)
+Améliorer l’accessibilité des contenus aux personnes handicapées
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 184 : Les pictogrammes typographiques sont dotés d'une alternative appropriée
+Les pictogrammes typographiques sont dotés d'une alternative appropriée
+Améliorer l’accessibilité des contenus aux personnes handicapées
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 185 : Une famille générique de police est indiquée comme dernier élément de substitution
+Une famille générique de police est indiquée comme dernier élément de substitution
+Permettre aux contenus de s'afficher correctement, même lorsque les polices prévues ne sont pas présentes sur le système de l'utilisateur
+
+BP 186 : Les styles ne justifient pas le texte
+Les styles ne justifient pas le texte
+Faciliter la lecture à l’écran, notamment pour les personnes dyslexiques
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 187 : Les mises en majuscules à des fins décoratives sont effectuées à l'aide des styles
+Les mises en majuscules à des fins décoratives sont effectuées à l'aide des styles
+Permettre un copier-coller des contenus indépendamment de la mise en forme entièrement en majuscules
+Faciliter l'adaptation de la mise en forme pour les utilisateurs ayant des difficultés de lecture des textes entièrement en majuscules
+
+BP 188 : Le site ne bloque pas les fonctionnalités de zoom du navigateur
+Le site ne bloque pas les fonctionnalités de zoom du navigateur
+Permettre aux utilisateurs d’adapter le rendu à leurs besoins ou à leurs préférences en recourant au zoom graphique
+Améliorer la compatibilité avec les terminaux mobiles
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 189 : Le site propose un ou plusieurs mécanismes dédiés à l'adaptation aux terminaux mobiles
+Le site propose un ou plusieurs mécanismes dédiés à l'adaptation aux terminaux mobiles
+Faciliter la consultation sur les terminaux mobiles
+Améliorer le positionnement dans les outils d’indexation qui prennent ce critère en compte
+
+BP 190 : Le site propose des styles dédiés à l'impression
+Le site propose des styles dédiés à l'impression
+Permettre l'impression des contenus sous une forme appropriée au support
+
+BP 191 : Le contenu de chaque page est disponible à l'impression sans blocs de navigation
+Le contenu de chaque page est disponible à l'impression sans blocs de navigation
+Améliorer la lisibilité et la pertinence des contenus imprimés
+Rationaliser l'espace utilisé par les contenus imprimés pour économiser du papier
+Diminuer l'impact énergétique lié à la consultation du site
+
+BP 192 : Toutes les pages utilisent le protocole HTTPS
+Toutes les pages utilisent le protocole HTTPS
+Prévenir le risque d’interception et de vol de données
+Améliorer la sécurité du site Web
+Rassurer les utilisateurs
+
+BP 193 : Les certificats de sécurité sont signés et en cours de validité
+Les certificats de sécurité sont signés et en cours de validité
+Permettre aux utilisateurs de connaître la validité du certificat et contribuer à la sécurisation de la transaction
+
+BP 194 : Les pages utilisant HTTPS ont un en-tête de transport strict
+Les pages utilisant HTTPS ont un en-tête de transport strict
+Améliorer la sécurité des échanges
+Prévenir les risques d’attaques
+
+BP 195 : Les pages utilisant le protocole HTTPS ne proposent pas de ressources HTTP
+Les pages utilisant le protocole HTTPS ne proposent pas de ressources HTTP
+Prévenir les alertes de type "site non sécurisé" dans les outils de consultation
+Améliorer la sécurité pour l’ensemble des ressources du site
+
+BP 196 : Les opérations relatives aux mots de passe peuvent être effectuées intégralement en ligne
+Les opérations relatives aux mots de passe peuvent être effectuées intégralement en ligne
+Fournir une solution immédiate au problème de l’utilisateur
+Limiter les difficultés liées à l’utilisation d’autres modes de communication
+
+BP 197 : Les mots de passe peuvent être choisis ou changés par l'utilisateur
+Les mots de passe peuvent être choisis ou changés par l'utilisateur
+Permettre aux utilisateurs de choisir un mot de passe personnalisé
+Éviter aux utilisateurs de rechercher leur mot de passe à chaque connexion
+
+BP 198 : Un dispositif sensibilise l'utilisateur sur le degré de sécurisation du mot de passe qu'il choisit
+Un dispositif sensibilise l'utilisateur sur le degré de sécurisation du mot de passe qu'il choisit
+Informer les utilisateurs sur le niveau de sécurité du mot de passe choisi et donc sur les risques de détournement
+
+BP 199 : Le site propose une procédure de réinitialisation du mot de passe
+Le site propose une procédure de réinitialisation du mot de passe
+Permette à l'utilisateur d'accéder à son compte en cas de perte du mot de passe
+Simplifier la gestion des comptes utilisateurs
+Renforcer la sécurité en évitant le stockage de mots de passe non cryptés afin de pouvoir les communiquer de nouveau à l'utilisateur
+
+BP 200 : Le site ne communique pas de mot de passe par mail
+Le site ne communique pas de mot de passe par mail
+Limiter les risques d’interception des mots de passe
+
+BP 201 : Les en-têtes envoyés par le serveur désactivent la détection automatique du type MIME de chaque ressource
+Les en-têtes envoyés par le serveur désactivent la détection automatique du type MIME de chaque ressource
+Réduire les risques de téléchargement d’un contenu dangereux dissimulé
+
+BP 202 : Le serveur indique le type MIME de chaque ressource
+Le serveur indique le type MIME de chaque ressource
+Réduire les risques de téléchargement d’un contenu dangereux dissimulé
+
+BP 203 : Les informations sur la sécurité des transactions sont indiquées
+Les informations sur la sécurité des transactions sont indiquées
+Contribuer à l'information des utilisateurs sur la sécurisation des échanges de données sensibles
+
+BP 204 : Le serveur n'envoie pas la liste des fichiers des répertoires n'ayant pas de page d'index
+Le serveur n'envoie pas la liste des fichiers des répertoires n'ayant pas de page d'index
+Éviter l'affichage de listes de fichiers contenus dans un répertoire
+Améliorer la sécurité du serveur
+Limiter les risques d'intrusion
+
+BP 205 : Le serveur envoie les informations d'activation de protection cross site scripting
+Le serveur envoie les informations d'activation de protection cross site scripting
+Réduire les risques de téléchargement d’un contenu dangereux dissimulé
+
+BP 206 : Le serveur envoie les informations indiquant les domaines autorisés à intégrer ses pages dans des cadres
+Le serveur envoie les informations indiquant les domaines autorisés à intégrer ses pages dans des cadres
+Réduire les risques d’utilisation trompeuse du contenu
+
+BP 207 : Le site propose un mécanisme de sécurité permettant de restreindre l'origine des contenus
+Le site propose un mécanisme de sécurité permettant de restreindre l'origine des contenus
+Réduire les risques d’exécution ou d’affichage d’un contenu non désirable ou d’une source non autorisée
+
+BP 208 : Le serveur ne communique pas d'informations sur les logiciels et langages utilisés
+Le serveur ne communique pas d'informations sur les logiciels et langages utilisés
+Prévenir les risques d’intrusion sur le serveur
+Prévenir l’apparition de contenus ou scripts malveillants sur le site
+
+BP 209 : Le contrôle d'intégrité des ressources tierces est présent et valide
+Le contrôle d'intégrité des ressources tierces est présent et valide
+Prévenir les risques de diffusion de code malveillant
+Limiter les risques associés à la diffusion de code malveillant désindexation, plaintes…
+
+BP 210 : Le site propose au moins deux mécanismes pour valider une opération sécurisée
+Le site propose au moins deux mécanismes pour valider une opération sécurisée
+Prévenir les risques d’échec des opérations
+Éviter l'exclusion d'utilisateurs pour des raisons techniques ou matérielles
+
+BP 211 : L'adresse du site fonctionne avec et sans préfixe www
+L'adresse du site fonctionne avec et sans préfixe www
+Permettre aux utilisateurs de rejoindre la page d'accueil du site même lorsqu'ils oublient de taper le préfixe www
+Diminuer l'impact énergétique lié à la consultation du site
+
+BP 212 : La racine du site contient des instructions pour les robots d'indexation
+La racine du site contient des instructions pour les robots d'indexation
+Permettre un référencement ciblé
+Améliorer le guidage des outils de recherche
+Diminuer l'impact énergétique lié à la consultation du site
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 213 : Le site propose un fichier sitemap indiquant les contenus à explorer
+Le site propose un fichier sitemap indiquant les contenus à explorer
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+Diminuer l'impact énergétique lié à la consultation du site
+
+BP 214 : Le serveur ne force pas la redirection vers la version ou l'application mobile
+Le serveur ne force pas la redirection vers la version ou l'application mobile
+Laisser le choix à l’utilisateur de la version ayant ses préférences
+Améliorer la compatibilité avec les terminaux mobiles
+
+BP 215 : Le serveur envoie un code HTTP 404 pour les ressources non trouvées
+Le serveur envoie un code HTTP 404 pour les ressources non trouvées
+Permettre la détection automatisée des URL erronées
+Transmettre au navigateur une information sûre
+Diminuer l'impact énergétique lié à la consultation du site
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 216 : Le serveur envoie une page d'erreur 404 personnalisée
+Le serveur envoie une page d'erreur 404 personnalisée
+Informer l'utilisateur sur l'erreur rencontrée, sur la continuité de fonctionnement du serveur
+Lever le doute sur un éventuel problème lié à sa connexion
+
+BP 217 : Le serveur envoie une page d'interdiction 403 personnalisée
+Le serveur envoie une page d'interdiction 403 personnalisée
+Rassurer l'internaute sur le fait qu'il est toujours dans le même site
+Permettre à l'administrateur du site de mettre des éléments de guidage pour l'utilisateur
+Informer l'utilisateur sur l'erreur rencontrée, sur la continuité de fonctionnement du serveur et mettre hors de cause sa connexion
+
+BP 218 : Le menu principal de navigation figure sur les pages d'erreur personnalisées
+Le menu principal de navigation figure sur les pages d'erreur personnalisées
+Éviter aux utilisateurs les ruptures de navigation, l'arrivée sur des pages cul-de-sac ou l'obligation d'utiliser le bouton Précédent du navigateur
+
+BP 219 : Le serveur transmet des contenus compressés aux clients qui les acceptent
+Le serveur transmet des contenus compressés aux clients qui les acceptent
+Améliorer la vitesse de rendu de la page
+Diminuer les coûts de bande passante
+Diminuer l'impact énergétique lié à la consultation du site
+
+BP 220 : Le serveur envoie les informations permettant la mise en cache des contenus
+Le serveur envoie les informations permettant la mise en cache des contenus
+Accélérer l'affichage des contenus et permettre une navigation plus fluide
+Réduire les coûts de bande passante
+
+BP 221 : Les en-têtes envoyés par le serveur contiennent les informations relatives au jeu de caractères employé
+Les en-têtes envoyés par le serveur contiennent les informations relatives au jeu de caractères employé
+Permettre au navigateur de choisir le bon encodage des caractères pour afficher la page
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 222 : Les feuilles de style du site sont minifiées
+Les feuilles de style du site sont minifiées
+Minimiser la quantité de données à télécharger par l'utilisateur
+Améliorer les performances
+Diminuer l'impact énergétique lié à la consultation du site
+
+BP 223 : Les scripts du site sont minifiés
+Les scripts du site sont minifiés
+Accélérer la vitesse d'affichage des pages
+Améliorer les performances
+Diminuer la quantité de données à télécharger
+Diminuer l'impact énergétique lié à la consultation du site
+
+BP 224 : La date de publication ou de mise à jour des contenus est mise à disposition sous forme programmatique
+La date de publication ou de mise à jour des contenus est mise à disposition sous forme programmatique
+Fournir une date de publication aux moteurs de recherche et outils d’indexation
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 225 : Le code source de chaque page contient une métadonnée qui définit le jeu de caractères
+Le code source de chaque page contient une métadonnée qui définit le jeu de caractères
+Permettre un affichage hors ligne correct des pages en indiquant au navigateur quel est le jeu de caractères utilisé
+Prévenir le risque de problèmes d’affichage de caractères lié à un fonctionnement parfois hasardeux des mécanismes de rattrapage des navigateurs quand ils ne disposent pas de l’information nécessaire via l’en-tête HTTP content-type
+Améliorer l’accessibilité des contenus aux personnes handicapées
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 226 : Le codage de caractères utilisé est UTF-8
+Le codage de caractères utilisé est UTF-8
+Recourir à un jeu de caractères international
+Prévenir les défauts d’affichage
+Faciliter la manipulation des contenus par les utilisateurs et les développeurs
+
+BP 227 : Le contenu de chaque page est organisé selon une structure de titres et sous-titres hiérarchisée
+Le contenu de chaque page est organisé selon une structure de titres et sous-titres hiérarchisée
+Permettre aux utilisateurs qui le souhaitent de visualiser la structure du contenu de la page et d’y naviguer
+Permettre aux machines et aux outils d’indexation d’extraire le plan de chaque page
+Améliorer le référencement en facilitant l’interprétation du contenu par les robots d’indexation
+
+BP 228 : Les éléments visuellement présentés sous forme de liste sont balisés de façon appropriée dans le code source
+Les éléments visuellement présentés sous forme de liste sont balisés de façon appropriée dans le code source
+Permettre l’identification des listes par les navigateurs et les aides techniques et donc leur restitution appropriée afin de faciliter leur compréhension par les utilisateurs
+Améliorer la sémantique du contenu des pages et sa réutilisabilité
+
+BP 229 : Chaque identifiant HTML n'est utilisé qu'une seule fois par page
+Chaque identifiant HTML n'est utilisé qu'une seule fois par page
+Éviter les erreurs de restitution du contenu ou d’interaction via les scripts
+Limiter les risques d’interprétation hasardeuse du Document Object Model (DOM) par des agents utilisateurs différents
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 230 : Le site ne bloque pas la copie de contenu
+Le site ne bloque pas la copie de contenu
+Faciliter l'utilisation du contenu par les utilisateurs (traduction, référence, citation etc.)
+Laisser aux utilisateurs la maîtrise de leur navigateur
+
+BP 231 : Le site ne bloque pas l'accès au menu contextuel
+Le site ne bloque pas l'accès au menu contextuel
+Faciliter la navigation et l'accès aux fonctionnalités des outils de consultations
+Laisser aux utilisateurs le contrôle de leurs menus et actions
+
+BP 232 : Le site n'impose pas de redirection ou de rafraîchissement automatique côté client
+Le site n'impose pas de redirection ou de rafraîchissement automatique côté client
+Laisser à l’utilisateur le contrôle de son navigateur et de son interface de consultation
+Éviter des coupures ou des pertes d’information en cours de lecture, notamment pour les utilisateurs équipés de lecteurs d’écran qu’un rafraîchissement ou une redirection temporisée interromprait lors de la consultation
+Ne pas pénaliser la consultation du contenu en mobilité lorsque la qualité du réseau est variable sur une courte échelle de temps
+Permettre à l’utilisateur d’éviter un surcroît non désiré de coût d’utilisation des données mobiles
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 233 : Le texte des documents PDF internes est sélectionnable
+Le texte des documents PDF internes est sélectionnable
+Permettre le référencement des contenus des documents PDF
+Faciliter la manipulation et la réutilisation du contenu des documents PDF (traduction, copier coller…)
+Garantir la lisibilité des contenus des documents PDF
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 234 : Les documents PDF internes sont dotés d'une structure de titres
+Les documents PDF internes sont dotés d'une structure de titres
+Permettre aux utilisateurs d’accéder directement à différentes sections d’un document PDF
+Fournir une structure de titres aux utilisateurs qui en ont besoin
+Permettre la consultation d’un PDF via une aide technique
+Améliorer l’accessibilité des contenus aux personnes handicapées
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 235 : Les fils de syndication sont détectables par les agents utilisateurs
+Les fils de syndication sont détectables par les agents utilisateurs
+Permettre au navigateur d'indiquer dans son interface la présence d'un fil de syndication associé à la page en cours de consultation
+
+BP 236 : Les cellules des tableaux de données sont reliées à leurs en-têtes
+Les cellules des tableaux de données sont reliées à leurs en-têtes
+Permettre aux aides techniques de restituer l'information contenue dans les tableaux de données de manière compréhensible, en indiquant à l'utilisateur les relations logiques entre contenu et en-têtes du tableau
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 237 : Les titres des tableaux de données sont renseignés
+Les titres des tableaux de données sont renseignés
+Permettre aux utilisateurs d'aides techniques (lecteurs d'écran) d'identifier aisément la nature des informations fournies par un tableau
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 238 : La linéarisation des tableaux utilisés pour la mise en page ne nuit pas à la compréhension des contenus
+La linéarisation des tableaux utilisés pour la mise en page ne nuit pas à la compréhension des contenus
+Fournir un contenu compréhensible aux utilisateurs dont l'agent utilisateur ou l'aide technique (lecteur d'écran) ne permet pas de restituer la mise en forme initialement prévue à l'aide d'un tableau
+Améliorer l’accessibilité des contenus aux personnes handicapées
+
+BP 239 : Les tableaux de données ne sont pas remplacés par des images
+Les tableaux de données ne sont pas remplacés par des images
+Permettre aux utilisateurs d’accéder à des tableaux exploitables par leur agent utilisateur et restitués de manière compréhensible dans tous les cas
+Améliorer l’accessibilité des contenus aux personnes handicapées. Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
+
+BP 240 : Les tableaux de données ne sont pas simulés à l'aide de texte mis en forme
+Les tableaux de données ne sont pas simulés à l'aide de texte mis en forme
+Permettre aux utilisateurs d'accéder à des tableaux exploitables par leur agent utilisateur et restitués de manière compréhensible dans tous les cas
+Améliorer l’accessibilité des contenus aux personnes handicapées
+Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation
