@@ -47,3 +47,8 @@ header, footer { background-color: #ffd6b8; }
     width: 3em;
     text-align: right;
 }
+
+.bp033 .empty {
+    font-family: "IBM Plex Sans Semibold", sans-serif;
+    color: darkred;
+}
