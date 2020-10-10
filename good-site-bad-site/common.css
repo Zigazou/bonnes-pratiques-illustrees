@@ -33,6 +33,11 @@ input[type=button], input[type=submit], button {
     background-color: lightgrey;
 }
 
+input[type=checkbox], input[type=radio] {
+    transform: scale(2);
+    margin-right: 0.5em;
+}
+
 body {
     margin: 0;
     padding: 0;
