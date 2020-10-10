@@ -263,44 +263,60 @@ function hide_gtk_messages() {
 }
 
 function hide_chromium_messages() {
-    egrep --invert-match --ignore-case ':INFO:'
+    egrep --invert-match --ignore-case ':INFO:|Fontconfig'
 }
 
-HTML="$1"
-PDFTMP="$1.pdf"
-SVG="$1.svg"
-SVGTMP="$1.svg.tmp"
+function html_to_svg() {
+    local HTML="$1"
+    local PDFTMP="$1.pdf"
+    local SVG="$1.svg"
+    local SVGTMP="$1.svg.tmp"
 
-# Convert HTML to PDF
-printf "  - [CHROMIUM] Converting HTML to PDF\n"
-google-chrome \
-    --headless \
-    --disable-gpu \
-    --print-to-pdf-no-header \
-    --print-to-pdf="$PDFTMP" \
-    "$HTML" \
-    2>&1 | hide_chromium_messages
+    # Convert HTML to PDF
+    printf "  - [CHROMIUM] Converting HTML to PDF\n"
+    google-chrome \
+        --headless \
+        --disable-gpu \
+        --print-to-pdf-no-header \
+        --print-to-pdf="$PDFTMP" \
+        "$HTML" \
+        2>&1 | hide_chromium_messages
 
-# Convert PDF to SVG
-printf "  - [INKSCAPE] Converting PDF to SVG\n"
-inkscape --without-gui --export-plain-svg="$SVGTMP" "$PDFTMP" \
-    2>&1 | hide_gtk_messages
+    # Convert PDF to SVG
+    printf "  - [INKSCAPE] Converting PDF to SVG\n"
+    inkscape --without-gui --export-plain-svg="$SVGTMP" "$PDFTMP" \
+        2>&1 | hide_gtk_messages
 
-# Remove background
-printf "  - [XSLTPROC] Removing background in SVG\n"
-xsltproc <(remove_background | xslclearer) "$SVGTMP" > "$SVG"
+    # Remove background
+    printf "  - [XSLTPROC] Removing background in SVG\n"
+    xsltproc <(remove_background | xslclearer) "$SVGTMP" > "$SVG"
 
-# Auto crop
-printf "  - [INKSCAPE] Auto-cropping SVG\n"
-inkscape --without-gui --export-area-drawing --export-pdf="$PDFTMP" "$SVG" \
-    2>&1 | hide_gtk_messages
-inkscape --without-gui --export-plain-svg="$SVGTMP" "$PDFTMP" \
-    2>&1 | hide_gtk_messages
-#inkscape --without-gui --export-area-drawing --export-plain-svg="$SVGTMP" "$SVG" \
-#    2>&1 | hide_gtk_messages
+    # Auto crop
+    printf "  - [INKSCAPE] Auto-cropping SVG\n"
+    inkscape --without-gui --export-area-drawing --export-pdf="$PDFTMP" "$SVG" \
+        2>&1 | hide_gtk_messages
+    inkscape --without-gui --export-plain-svg="$SVGTMP" "$PDFTMP" \
+        2>&1 | hide_gtk_messages
+    #inkscape --without-gui --export-area-drawing --export-plain-svg="$SVGTMP" "$SVG" \
+    #    2>&1 | hide_gtk_messages
 
-# Optimize SVG
-printf "  - [XSLTPROC] Optimizing SVG\n"
-xsltproc <(optimize_svg | xslclearer) "$SVGTMP" > "$SVG"
+    # Optimize SVG
+    printf "  - [XSLTPROC] Optimizing SVG\n"
+    xsltproc <(optimize_svg | xslclearer) "$SVGTMP" > "$SVG"
 
-rm -f "$SVGTMP" "$PDFTMP"
+    printf "  - [RM] Cleaning temporary files\n"
+    rm -f "$SVGTMP" "$PDFTMP"
+
+    printf "\n"
+}
+
+for html in "$@"
+do
+    if [ -f "$html" ]
+    then
+        printf "Converting %s...\n" "$html"
+        html_to_svg "$html"
+    else
+        printf "File not found: %s\n" "$html" >&2
+    fi
+done
