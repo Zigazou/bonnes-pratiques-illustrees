@@ -138,3 +138,8 @@ p:last-child { margin-bottom: 0; }
     border: 1pt dashed red;
     color: darkred;
 }
+
+.full-width {
+    width: 100%;
+    height: auto;
+}
