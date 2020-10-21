@@ -3,7 +3,7 @@
     font-family: "IBM Plex Sans", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, strong, dt, th {
+h1, h2, h3, h4, h5, h6, strong, dt, th, time {
     font-family: "IBM Plex Sans Semibold", sans-serif;
     font-weight: normal;
 }
