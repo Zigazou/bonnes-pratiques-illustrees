@@ -1,3 +1,16 @@
 header, footer { background-color: red; }
 .bp134 h1, .bp134 h2 { text-decoration: underline; }
 .bp186 { text-align: justify; }
+
+.bp227 .title, .bp227 .subtitle {
+    font-family: "IBM Plex Sans Semibold", sans-serif;
+    font-weight: normal;
+}
+.bp227 .title {
+    font-size: 28pt;
+    margin-bottom: 0.666666em;
+}
+.bp227 .subtitle {
+    font-size: 24pt;
+    margin: 0.83em 0;
+}
